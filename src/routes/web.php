@@ -15,5 +15,4 @@ use App\Http\Controllers\HelloController;
 |
 */
 
-Route::get('/test', [TestController::class, 'index']);
-Route::get('/hello', [HelloController::class, 'index']);
+Route::get('', [TestController::class, 'index']);

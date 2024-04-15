@@ -11,6 +11,8 @@
 <body>
     <h1>ブラウザに画面を表示できた！</h1>
     <p><?php echo $content ?></p>
+
+    <p>roomが<?php echo $param1 ?>でidは<?php echo $param2 ?>です</p>
 </body>
 
 </html>
