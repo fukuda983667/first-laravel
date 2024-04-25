@@ -17,6 +17,7 @@ class FirstMiddleware
     public function handle(Request $request, Closure $next)
     {
         $input = "ミドルウェアが書き換えてます。";
+        // margeで$requestに新しい値を追加してる。
         $request->merge(['content'=>$input]);
         return $next($request);
     }
